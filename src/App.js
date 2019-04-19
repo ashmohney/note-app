@@ -1,28 +1,26 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ReactDom from 'react-dom';
+//import js files in components dir
+        // Ex: import NoteCard from './noteCard.js';
 
-class App extends Component {
+
+class App extends React.Component {
+  constructor() {
+    //insert super component and this.state here
+  }
+
   render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
+  
+   //insert returned JSX <componets />   return(Ex:  ...etc)
+  //  Ex:
+  //  return (
+  //   <div>
+  //     <Navbar />
+  //     <Header />
+  //     <Section />
+  //   </div>
+  // );
+
   }
 }
-
-export default App;
+export default App; 
