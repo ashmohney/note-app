@@ -1,6 +1,6 @@
 {
-  "short_name": "Notes App",
-  "name": "Notes App With React",
+  "short_name": "Note App",
+  "name": "Note App With React",
   "icons": [
     {
       "src": "favicon.ico",

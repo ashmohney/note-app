@@ -1,25 +1,27 @@
 import React from "react";
-import ReactDom from 'react-dom';
+// import ReactDom from 'react-dom';
+import Navbar from "../src/components/Navbar";
+
 //import js files in components dir
         // Ex: import NoteCard from './noteCard.js';
 
 
 class App extends React.Component {
-  constructor() {
-    //insert super component and this.state here
-  }
+  // constructor() {
+  //   //insert super component and this.state here
+  // }
 
   render() {
   
    //insert returned JSX <componets />   return(Ex:  ...etc)
   //  Ex:
-  //  return (
-  //   <div>
-  //     <Navbar />
-  //     <Header />
-  //     <Section />
-  //   </div>
-  // );
+   return (
+    <div>
+      <Navbar />
+      {/* <Header /> */}
+      {/* <Section /> */}
+    </div>
+  );
 
   }
 }
